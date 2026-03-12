@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis on Tweets</h1>
+        <form action="/predict" method="post">
+            <textarea name="text" rows="4" cols="50" placeholder="Enter your text here..."></textarea><br>
+            <input type="submit" value="Predict">
+        </form>
+        {% if prediction_text %}
+        <h3>{{ prediction_text }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
