@@ -21,7 +21,7 @@ The dataset used is a sample of tweets from Kaggle. It is stored in `data/tweets
 The trained model is saved as `sentiment_model.pkl`. You can retrain the model using `model.py`.
 
 ## Author
-John Doe (johndoe@university.edu)
+Sandhya 
 
 ## License
 MIT
